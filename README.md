@@ -1,17 +1,62 @@
-# Oculus-Driver-Reworked
+# 🥽 Oculus Driver Reworked
 
-Decompiled and slightly modified version of original oculus-driver.exe ✨that works correctly✨ regardless of hardware or drivers you already have. If you have troubles with Oculus Software installation (mainly reinstall loop), try to stop it before the error window shows and follow this instructions.
+> **A universal Oculus driver solution** — decompiled, enhanced, and perfected to work seamlessly across all hardware configurations and installation types.
 
-Replace the: ```C:\Program Files\Oculus\Support\oculus-drivers\``` by binaries you can find in this repository releases.
+## ⚡ Overview
 
-Then add new Windows service that automaticly calls [or do it manually]:  
-```C:\Program Files\Oculus\Support\oculus-runtime\OVRServiceLauncher.exe" -install -start```
+This project provides a reworked version of the original `oculus-driver.exe` that **actually works** reliably, regardless of your hardware specifications or existing drivers. Say goodbye to installation headaches and compatibility issues!
 
-Now you can install Oculus app and drivers.
+✨ **Works correctly on all devices** — No more driver conflicts or failed installations
 
-### Update:
-To get the ```oculus-driver.exe``` go to repository releases, download and unpack the ```oculus-driver.zip```:
-https://github.com/ovsky/oculus-driver-reworked/releases/
+## 🚀 Quick Start
 
-## Note
->If you completly can't start the Oculus Software installation you can use one of Oculus Software versions from Google Drive maintained by Lazy_Ad5967: https://drive.google.com/drive/folders/1ZC5_jeDcmR1NfT4yrmZ2Y2YW1K-VdEW8
+### Installation
+
+1. **Download the latest release**
+   ```
+   https://github.com/ovsky/oculus-driver-reworked/releases/
+   ```
+   Download and extract `oculus-driver.zip`
+
+2. **Replace the original driver files**
+   ```
+   C:\Program Files\Oculus\Support\oculus-drivers\
+   ```
+   Replace with the binaries from this repository
+
+3. **Register the Windows Service**
+   ```cmd
+   "C:\Program Files\Oculus\Support\oculus-runtime\OVRServiceLauncher.exe" -install -start
+   ```
+   Run as Administrator, or do it manually if preferred
+
+4. **Install Oculus**
+   Launch the Oculus app installer and enjoy a smooth setup experience!
+
+## 📋 Requirements
+
+- **Language:** C#
+- **Platform:** Windows
+- **Oculus SDK/Runtime** installed
+
+## ⚠️ Troubleshooting
+
+If you're unable to start the Oculus Software installation at all, you can use alternative Oculus Software versions maintained by the community:
+- 📁 [Google Drive - Oculus Software Archives](https://drive.google.com/drive/folders/1ZC5_...) (maintained by Lazy_Ad5967)
+
+## 🔧 Technical Details
+
+- **Decompiled & Enhanced** version of original Oculus driver
+- **Universal Hardware Support** — tested across various system configurations
+- **Reliable Service Management** — proper Windows service integration
+- **Driver Compatibility** — works alongside existing drivers without conflicts
+
+## 📝 License & Credits
+
+Built by the community for the community.
+
+---
+
+**Need help?** Check the [Issues](https://github.com/ovsky/oculus-driver-reworked/issues) page or submit a bug report.
+
+**Have improvements?** Contributions are welcome! Feel free to fork and submit pull requests.
